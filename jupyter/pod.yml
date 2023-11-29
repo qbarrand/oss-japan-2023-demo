@@ -8,7 +8,7 @@ spec:
     image: quay.io/quba/kmm-demo:oss-japan-2023
     args:
       - start-notebook.py
-      - --PasswordIdentityProvider.hashed_password='argon2:$argon2id$v=19$m=10240,t=10,p=8$rRJOLtB7ucZclq2JzGfsqg$APLjovRMxVJbZi3MkfB0hX/jsbL4Yp064Ftmu0ZZFXo'
+      - --PasswordIdentityProvider.hashed_password='argon2:$argon2id$v=19$m=10240,t=10,p=8$GAjc9qSnP0B+gHEvPfdpOg$Z4fbof6mp7vIRqrDb3AZbnzHZa2ixJL2TaXyt5ni9kQ'
     env:
       - name: GRANT_SUDO
         value: yes
